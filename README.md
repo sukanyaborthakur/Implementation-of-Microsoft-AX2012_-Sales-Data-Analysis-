@@ -1,4 +1,4 @@
-# Sales Performance Target & Budget Analysis
+# Sales Performance Analysis
 This project is an end-to-end Sales Analytics and Performance Monitoring dashboard built using Power BI on top of ERP transactional data from Microsoft Dynamics AX
     
 The dashboard enables business stakeholders to monitor:
@@ -74,3 +74,90 @@ The dashboard enables business stakeholders to monitor:
   <br/>-Monitor targets and budgets effectively
   <br/>-Identify high and low performing regions, warehouses, and dealers
   <br/>-Enable data-driven decision-making for Sales Executives
+
+
+
+
+
+
+  # Executive Sales Vs Target Analysis
+ **Project Overview**
+
+This project focuses on analyzing sales performance against targets using an interactive Power BI dashboard. The report enables stakeholders to monitor business performance across executives, customers, locations, and product groups, helping identify top performers, underperforming regions, and customer contribution to overall sales.
+
+
+**Business Problem**
+
+Sales teams often struggle to quickly evaluate performance against targets across multiple regions and executives. Static reports make it difficult to identify performance gaps and understand the drivers behind sales achievement.
+
+This dashboard solves that problem by providing a dynamic and interactive performance monitoring tool that enables faster decision-making.
+
+***Data Architechture***
+ 
+   <br/> **Data Source**
+    <br/> *Excel
+    <br/> *Microsoft SQL Server
+    <br/> *ERP System : Dynamics AX(Production Database)
+
+**Core Fact Table**
+    <br/> *Sales Transaction(Query1)
+    <br/> *Target_Data23-24
+    
+    
+
+**Dimension Table**
+    <br/>*Calendar(Custom Fiscal year calendar using dax)
+    
+ **Built Relationships**
+    <br/>The model follows star-schema principles. 
+     <br/>Query1[Custinvoicetrans Date]  →  Calendar[Date]
+     <br/>Cardinality: Many-to-One
+     <br/>Cross Filter: Single
+     <br/>This relationship allows sales data to be filtered by date, enabling visuals like:
+<br/>-Monthly sales trends
+<br/>-Yearly comparisons
+<br/>-Fiscal year analysis
+     <br/>Query1[Unique ID] → Target_Data23-24[UniqueID]
+     <br/>Cardinality: Many-to-One
+     <br/>Cross Filter: Single
+     <br/>This relationship connects actual sales with target values.
+<br/>This allows calculation of:
+<br/>-Achievement %
+<br/>-Variance
+<br/>-Sales vs Target
+
+ **KPI Measured**
+  <br/>Achievement
+  <br/>Variance
+  <br/>Variance Color
+  <br/>Top 10 Executive Color
+  <br/>Top 5 Location
+  <br/>GRP Target Total
+  <br/>Monthly Target
+  <br/>Last Year Sales
+  <br/>Actual Sales
+  <br/>Button label
+  <br/>KPI Executive Title
+  <br/>KPI Location Title
+
+  **Dashboard Pages**
+    <br/>Executive Overview
+    <br/>Location wise customer Sales vs Target
+    <br/>DTCustomer details
+    <br/>DTexecutive details  
+
+   **Tools and Technologies**
+     <br/> ***Excel***
+     <br/> ***SQL Server***
+     <br/> ***Power BI Desktop***
+     <br/> ***Microsoft Dynamics AX(Source ERP)***  
+
+**Business Value**
+  <br/>-Real-time Performance Monitoring
+  <br/>-Executive Performance Evaluation
+  <br/>-Target Effectiveness Assessment
+  <br/>-Regional Sales Insights
+  <br/>-Customer Revenue Contribution
+  <br/>-Data-Driven Sales Strategy
+  <br/>-Improved Reporting Efficiency
+  <br/>
