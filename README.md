@@ -160,29 +160,33 @@ This dashboard solves that problem by providing a dynamic and interactive perfor
   <br/>-Customer Revenue Contribution
   <br/>-Data-Driven Sales Strategy
   <br/>-Improved Reporting Efficiency
+![Executive overview](https://github.com/user-attachments/assets/e2f5b2f9-34a3-42a0-9b0b-ae9eb2619481)
+![2pic](https://github.com/user-attachments/assets/4d9656ad-5533-4230-96b3-a3d25f799a34)
+![3pic](https://github.com/user-attachments/assets/4dedae4d-99ad-4229-9780-8086c7e4fb83)
+![4pic](https://github.com/user-attachments/assets/8561b514-9d5c-4708-84bd-4bbd3309265d)
 
   **Key Insights from this Dashboard**
   
-<br/>Insight 1 — Sales far exceed targets
+<br/>1 — Sales far exceed targets
 <br/>Total sales significantly surpass targets, indicating **very high achievement levels.**
 <br/>This suggests either:
 <br/>-Strong market demand
 <br/>-Targets set conservatively
 
-<br/>Insight 2 — Extreme achievement percentages
+<br/>2 — Extreme achievement percentages
 Some executives show **achievement above 4000%**.
 <br/>Example:
 <br/>Executive	Sales	Target	Achievement
 <br/>Sanjay	435K	9K	4835%
 <br/>This indicates **target imbalance**, where targets assigned to some executives are very small relative to their sales performance.
 
-<br/>Insight 3 — Sales concentration among a few executives
+<br/>3 — Sales concentration among a few executives
 <br/>Executive performance charts show that **a few executives contribute disproportionately to total sales.**
 <br/>This suggests:
 <br/>Unequal account allocation
 <br/>Key executives managing high-value customers
 
-<br/>Insight 4 — Location performance differences
+<br/>4 — Location performance differences
 <br/>Locations show different levels of performance.
 <br/>Example:
 <br/>Location	Variance
@@ -191,7 +195,7 @@ Some executives show **achievement above 4000%**.
 <br/>Bangalore	+80%
 <br/>This indicates varying **regional market performance.**
 
-<br/>Insight 5 — Customer revenue concentration
+<br/>5 — Customer revenue concentration
 <br/>A small number of customers generate a large portion of revenue, creating **customer concentration risk.**
 <br/>Losing one major customer could significantly impact total sales.
 
@@ -204,8 +208,8 @@ Some executives show **achievement above 4000%**.
 <br/>In your dashboard some executives show very high achievement (e.g., 4835%). This usually happens when the assigned target is too small compared to the actual sales potential.
 
 <br/>Example:
-<br/>Executive	Sales	Target	Achievement
-<br/>Sanjay	₹4,35,211	₹9,000	4835%
+
+<br/>Executive Sanjay-	Sales-₹4,35,211, Target-₹9,000, Achievement-4835%
 <br/>Here the target is extremely low. Even moderate sales produce a very high achievement percentage.
 
 <br/>Recommendation:
@@ -227,19 +231,19 @@ Some executives show **achievement above 4000%**.
 <br/>If one executive manages multiple high-revenue customers, their sales will naturally be higher than others.
 
 <br/>Example:
-<br/>Executive	Customer	Sales
-<br/>Executive A	Customer X	₹50M
-<br/>Executive A	Customer Y	₹40M
-<br/>Executive B	Customer Z	₹5M
+<br/>Executive---	    Customer---	Sales
+<br/>Executive A--Customer X--₹50M
+<br/>Executive A--Customer Y--₹40M
+<br/>Executive B--Customer Z--₹5M
 <br/>Executive A will always appear as the top performer, even if Executive B is working just as hard.
 
 <br/>Recommendation:
 <br/>Distribute large customers among multiple executives.
 
 <br/>Example:
-<br/>Executive	Customer
-<br/>Executive A	Customer X
-<br/>Executive B	Customer Y
+<br/>Executive---	Customer
+<br/>Executive A--	Customer X
+<br/>Executive B--	Customer Y
 <br/>This leads to balanced sales opportunities.
 
 <br/>*3️. Improve regional strategies*
